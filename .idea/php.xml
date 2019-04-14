@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpProjectServersManager">
+    <servers>
+      <server host="0.0.0.0" id="f70e7388-f835-4f36-a1d2-16923f7307c1" name="xs" use_path_mappings="true" />
+    </servers>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="5.3.0" />
+</project>

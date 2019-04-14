@@ -1,0 +1,25 @@
+<include file="header" />
+<!-- /header -->
+<div class="main4">
+    <div class="m4_left FL">
+        <div class="m4_t1">当前位置：<a href='/'>主页</a> > <a href='/list-{$lanmu_names['id']}.html'>{$lanmu_names['name']}</a> > </div>
+        <ul class="m4_box1">
+            <volist name="info" id="vi">
+                <li><span><?php
+                if(!empty($vi['creattime'])){
+                    echo date("Y-m-d",$vi["creattime"]);
+                    }else{
+                        echo date("Y-m-d",time());
+                        }
+                ?></span>·<a href="/page-{$vi.id}.html">{$vi.tagname}</a></li>
+            </volist>
+        </ul>
+        <div class="dede_pages">
+            <ul class="pagelist">
+            </ul>
+        </div>
+    </div>
+    <include file="right" />
+    <div class="clear"></div>
+</div>
+<include file="footer" />

@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>{$title}</title>
+    <meta name="description" content="{$description}" />
+    <meta name="keywords" content="{$keywords}" />
+    <link rel="stylesheet" href="__PUBLIC__/css/style.css" type="text/css" />
+    <script language="javascript" type="text/javascript" src="__PUBLIC__/js/dedeajax2.js"></script>
+</head>
+<body class="Mubanzhijia_Com">
+<div class="Top">
+    <span><a href="/login.php" target="_blank">会员登录</a> - <a href="/login.php" target="_blank">用户注册</a> - <a href=""onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('{$webdomian}');">设为首页</a> - <a href="javascript:window.external.AddFavorite('{$webdomian}','{$title}')">加入收藏</a> - <a href="/sitemap.html" target="_blank">网站地图</a></span>
+    {$title}({$webdomian})！
+</div>
+<div class="Head">
+    <div class="logo FL"><h1><a href="{$webdomian}"><img src="__PUBLIC__/images/logo.jpg" alt="{$title}" /></a></h1></div>
+</div>
+<div class="Nav">
+    <a href='/'>主页</a>
+    <volist name="lanmus" id="vi">
+        <a href='/list-{$vi.id}.html'>{$vi.name}</a>
+    </volist>
+</div>
+<div class="Nav_box">
+    <div class="so FR">
+        <form action="/search.php" name="formsearch">
+            <input type="hidden" name="kwtype" value="0" />
+            <input name="keyword" type="text" class="search-keyword FL" id="search-keyword" value="在这里搜索..." onfocus="if(this.value=='在这里搜索...'){this.value='';}"  onblur="if(this.value==''){this.value='在这里搜索...';}"/>
+            <button type="submit" class="search-submit FL">搜索</button>
+        </form>
+    </div>
+</div>

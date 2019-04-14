@@ -1,0 +1,35 @@
+<div class="m4_right FR">
+    <div class="m4_box2">
+        <div class="m4_t2">栏目分类</div>
+        <ul class="m4_box10">
+
+            <div class="clear"></div>
+        </ul>
+    </div>
+    <div class="m4_box2">
+        <div class="m4_t2">最新内容</div>
+        <ul>
+            <volist name="r1" id="vi">
+                <li>·<a href="/page-{$vi.id}.html">{$vi.tagname}</a></li>
+            </volist>
+        </ul>
+    </div>
+    <div class="m4_box20">
+        <div class="m4_t2">推荐内容</div>
+        <ul>
+            <volist name="r2" id="vi">
+                <li><a href="/page-{$vi.id}.html"><img src="{$vi.img}" alt="{$vi.tagname}" />{$vi.tagname}</a></li>
+            </volist>
+            <div class="clear"></div>
+        </ul>
+    </div>
+    <div class="m4_box2">
+        <div class="m4_t2">热点内容</div>
+        <ul>
+            <volist name="r3" id="vi">
+                <li>·<a href="/page-{$vi.id}.html">{$vi.tagname}</a></li>
+            </volist>
+
+        </ul>
+    </div>
+</div>

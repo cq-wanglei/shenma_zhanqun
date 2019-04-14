@@ -1,0 +1,239 @@
+<include file="header" />
+<div class="main1">
+    <div class="m1_left FL">
+        <div class="m1_box1 FL">
+            <h2><a href="/page-{$t24[0]['id']}.html">{$t24[0]['tagname']}</a></h2>
+            <p>篇一、{$t24[0]['tagname']} <?php echo str_replace('<p>','',mb_substr($t24[0]['neirong'], 0,15,'utf-8')); ?>…<a href="#">[详细]</a></p>
+
+        </div>
+        <ul class="m1_box2 FL">
+            <for start="1" end="4">
+                <li><a href="/page-{$t24[$i]['id']}.html"><img src="{$t24[$i]['img']}" alt="{$t24[$i]['tagname']}" /><br />{$t24[$i]['tagname']}</a></li>
+            </for>
+        </ul>
+        <ul class="m1_box3 FL">
+            <for start="4" end="17">
+                <li>·<a href="/page-{$t24[$i]['id']}.html">{$t24[$i]['tagname']}</a></li>
+            </for>
+        </ul>
+        <div class="clear"></div>
+    </div>
+    <div class="m1_right FR">
+        <div class="m1_box4">
+            <script language='javascript'>
+                linkarr = new Array();
+                picarr = new Array();
+                textarr = new Array();
+                var swf_width=406;
+                var swf_height=250;
+                //文字颜色|文字位置|文字背景颜色|文字背景透明度|按键文字颜色|按键默认颜色|按键当前颜色|自动播放时间|图片过渡效果|是否显示按钮|打开方式
+                var configtg='0xffffff|0|0xc10000|5|0xffffff|0xC5DDBC|0x000033|2|3|1|_blank';
+                var files = "";
+                var links = "";
+                var texts = "";
+                //这里设置调用标记
+                <?php $a1 = 1; ?>
+                <for start="17" end="22">
+                    linkarr[{$a1}] = "/page-{$t24[$i]['id']}.html";
+                    picarr[{$a1}]  = "{$t24[$i]['img']}";
+                    textarr[{$a1}] = "{$t24[$i]['tagname']}";
+                    <?php $a1 = $a1 + 1; ?>
+                </for>
+
+                for(i=1;i<picarr.length;i++){
+                    if(files=="") files = picarr[i];
+                    else files += "|"+picarr[i];
+                }
+                for(i=1;i<linkarr.length;i++){
+                    if(links=="") links = linkarr[i];
+                    else links += "|"+linkarr[i];
+                }
+                for(i=1;i<textarr.length;i++){
+                    if(texts=="") texts = textarr[i];
+                    else texts += "|"+textarr[i];
+                }
+                document.write('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="'+ swf_width +'" height="'+ swf_height +'">');
+                document.write('<param name="movie" value="__PUBLIC__/images/bcastr3.swf"><param name="quality" value="high">');
+                document.write('<param name="menu" value="false"><param name=wmode value="opaque">');
+                document.write('<param name="FlashVars" value="bcastr_file='+files+'&bcastr_link='+links+'&bcastr_title='+texts+'&bcastr_config='+configtg+'">');
+                document.write('<embed src="__PUBLIC__/images/bcastr3.swf" wmode="opaque" FlashVars="bcastr_file='+files+'&bcastr_link='+links+'&bcastr_title='+texts+'&bcastr_config='+configtg+'&menu="false" quality="high" width="'+ swf_width +'" height="'+ swf_height +'" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />'); document.write('</object>');
+            </script>
+        </div>
+        <div class="m1_box5">
+            <ul>
+                <for start="22" end="24">
+                    <li>
+                        <a href="/page-{$t24[$i]['id']}.html"><img src="{$t24[$i]['img']}" alt="{$t24[$i]['tagname']}" /></a>
+                        <h3><a href="/page-{$t24[$i]['id']}.html">{$t24[$i]['tagname']}</a></h3>
+                        <p>篇一、{$t24[$i]['tagname']} <?php echo str_replace('<p>','',mb_substr($t24[$i]['neirong'], 0,15,'utf-8')); ?>...</p>
+                    </li>
+                </for>
+            </ul>
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+<div class="main2">
+    <div class="m2_box1">
+        <div class="m2_box2 FL">
+            <div class="m2_tit">
+                <h3><a href="/list-{$lanmus[0]['id']}.html">{$lanmus[0]['name']}</a></h3>
+                <span><a href="/list-{$lanmus[0]['id']}.html">更多</a></span>
+            </div>
+            <div class="m2_box3">
+                <a href="/page-{$z1[0]['id']}.html"><img src="{$z1[0]['img']}" alt="{$z1[0]['tagname']}" /></a>
+                <h4><a href="/page-{$z1[0]['id']}.html">{$z1[0]['tagname']}</a></h4>
+                <p>篇一、{$z1[0]['tagname']}<?php echo str_replace('<p>','',mb_substr($z1[0]['neirong'], 0,15,'utf-8')); ?>...</p>
+            </div>
+            <ul class="m2_box4">
+                <for start="1" end="7">
+                    <li>·<a href="/page-{$z1[$i]['id']}.html">{$z1[$i]['tagname']|mb_substr= 0,15,'utf-8'}</a></li>
+                </for>
+            </ul>
+        </div>
+        <div class="m2_box2 FL">
+        <div class="m2_tit">
+            <h3><a href="/list-{$lanmus[1]['id']}.html">{$lanmus[1]['name']}</a></h3>
+            <span><a href="/list-{$lanmus[1]['id']}.html">更多</a></span>
+        </div>
+        <div class="m2_box3">
+            <a href="/page-{$z2[0]['id']}.html"><img src="{$z2[0]['img']}" alt="{$z2[0]['tagname']}" /></a>
+            <h4><a href="/page-{$z2[0]['id']}.html">{$z2[0]['tagname']}</a></h4>
+            <p>篇一、{$z2[0]['tagname']}<?php echo str_replace('<p>','',mb_substr($z2[0]['neirong'], 0,15,'utf-8')); ?>...</p>
+        </div>
+        <ul class="m2_box4">
+            <for start="1" end="7">
+                <li>·<a href="/page-{$z2[$i]['id']}.html">{$z2[$i]['tagname']|mb_substr= 0,15,'utf-8'}</a></li>
+            </for>
+        </ul>
+    </div>
+        <div class="m2_box2 FL">
+        <div class="m2_tit">
+            <h3><a href="/list-{$lanmus[2]['id']}.html">{$lanmus[2]['name']}</a></h3>
+            <span><a href="/list-{$lanmus[2]['id']}.html">更多</a></span>
+        </div>
+        <div class="m2_box3">
+            <a href="/page-{$z3[0]['id']}.html"><img src="{$z3[0]['img']}" alt="{$z3[0]['tagname']}" /></a>
+            <h4><a href="/page-{$z3[0]['id']}.html">{$z3[0]['tagname']}</a></h4>
+            <p>篇一、{$z3[0]['tagname']}<?php echo str_replace('<p>','',mb_substr($z3[0]['neirong'], 0,15,'utf-8')); ?>...</p>
+
+        </div>
+        <ul class="m2_box4">
+            <for start="1" end="7">
+                <li>·<a href="/page-{$z3[$i]['id']}.html">{$z3[$i]['tagname']|mb_substr= 0,15,'utf-8'}</a></li>
+            </for>
+
+        </ul>
+    </div>
+        <div class="m2_box2 FL">
+        <div class="m2_tit">
+            <h3><a href="/list-{$lanmus[3]['id']}.html">{$lanmus[3]['name']}</a></h3>
+            <span><a href="/list-{$lanmus[3]['id']}.html">更多</a></span>
+        </div>
+        <div class="m2_box3">
+            <a href="/page-{$z4[0]['id']}.html"><img src="{$z4[0]['img']}" alt="{$z4[0]['tagname']}" /></a>
+            <h4><a href="/page-{$z4[0]['id']}.html">{$z4[0]['tagname']}</a></h4>
+            <p>篇一、{$z4[0]['tagname']}<?php echo str_replace('<p>','',mb_substr($z4[0]['neirong'], 0,15,'utf-8')); ?>...</p>
+
+        </div>
+        <ul class="m2_box4">
+            <for start="1" end="7">
+                <li>·<a href="/page-{$z4[$i]['id']}.html">{$z4[$i]['tagname']|mb_substr= 0,15,'utf-8'}</a></li>
+            </for>
+
+        </ul>
+    </div>
+        <div class="m2_box2 FL">
+        <div class="m2_tit">
+            <h3><a href="/list-{$lanmus[4]['id']}.html">{$lanmus[4]['name']}</a></h3>
+            <span><a href="/list-{$lanmus[4]['id']}.html">更多</a></span>
+        </div>
+        <div class="m2_box3">
+            <a href="/page-{$z5[0]['id']}.html"><img src="{$z5[0]['img']}" alt="{$z5[0]['tagname']}" /></a>
+            <h4><a href="/page-{$z5[0]['id']}.html">{$z5[0]['tagname']}</a></h4>
+            <p>篇一、{$z5[0]['tagname']}<?php echo str_replace('<p>','',mb_substr($z5[0]['neirong'], 0,15,'utf-8')); ?>...</p>
+
+        </div>
+        <ul class="m2_box4">
+            <for start="1" end="7">
+                <li>·<a href="/page-{$z5[$i]['id']}.html">{$z5[$i]['tagname']|mb_substr= 0,15,'utf-8'}</a></li>
+            </for>
+        </ul>
+    </div>
+        <div class="m2_box2 FL">
+        <div class="m2_tit">
+            <h3><a href="/list-{$lanmus[5]['id']}.html">{$lanmus[5]['name']}</a></h3>
+            <span><a href="/list-{$lanmus[5]['id']}.html">更多</a></span>
+        </div>
+        <div class="m2_box3">
+            <a href="/page-{$z6[0]['id']}.html"><img src="{$z6[0]['img']}" alt="{$z6[0]['tagname']}" /></a>
+            <h4><a href="/page-{$z6[0]['id']}.html">{$z6[0]['tagname']}</a></h4>
+            <p>篇一、{$z6[0]['tagname']}<?php echo str_replace('<p>','',mb_substr($z6[0]['neirong'], 0,15,'utf-8')); ?>...</p>
+
+        </div>
+        <ul class="m2_box4">
+            <for start="1" end="7">
+                <li>·<a href="/page-{$z6[$i]['id']}.html">{$z6[$i]['tagname']|mb_substr= 0,15,'utf-8'}</a></li>
+            </for>
+
+        </ul>
+    </div>
+        <div class="m2_box2 FL">
+        <div class="m2_tit">
+            <h3><a href="/list-{$lanmus[6]['id']}.html">{$lanmus[6]['name']}</a></h3>
+            <span><a href="/list-{$lanmus[6]['id']}.html">更多</a></span>
+        </div>
+        <div class="m2_box3">
+            <a href="/page-{$z7[0]['id']}.html"><img src="{$z7[0]['img']}" alt="{$z7[0]['tagname']}" /></a>
+            <h4><a href="/page-{$z7[0]['id']}.html">{$z7[0]['tagname']}</a></h4>
+            <p>篇一、{$z7[0]['tagname']}<?php echo str_replace('<p>','',mb_substr($z7[0]['neirong'], 0,15,'utf-8')); ?>...</p>
+
+        </div>
+        <ul class="m2_box4">
+            <for start="1" end="7">
+                <li>·<a href="/page-{$z7[$i]['id']}.html">{$z7[$i]['tagname']|mb_substr= 0,15,'utf-8'}</a></li>
+            </for>
+
+        </ul>
+    </div>
+        <div class="m2_box2 FL">
+        <div class="m2_tit">
+            <h3><a href="/list-{$lanmus[7]['id']}.html">{$lanmus[7]['name']}</a></h3>
+            <span><a href="/list-{$lanmus[7]['id']}.html">更多</a></span>
+        </div>
+        <div class="m2_box3">
+            <a href="/page-{$z8[0]['id']}.html"><img src="{$z8[0]['img']}" alt="{$z8[0]['tagname']}" /></a>
+            <h4><a href="/page-{$z8[0]['id']}.html">{$z8[0]['tagname']}</a></h4>
+            <p>篇一、{$z8[0]['tagname']}<?php echo str_replace('<p>','',mb_substr($z8[0]['neirong'], 0,15,'utf-8')); ?>...</p>
+
+        </div>
+        <ul class="m2_box4">
+            <for start="1" end="7">
+                <li>·<a href="/page-{$z8[$i]['id']}.html">{$z8[$i]['tagname']|mb_substr= 0,15,'utf-8'}</a></li>
+            </for>
+
+        </ul>
+    </div>
+        <div class="m2_box2 FL">
+            <div class="m2_tit">
+                <h3><a href="/list-{$lanmus[8]['id']}.html">{$lanmus[8]['name']}</a></h3>
+                <span><a href="/list-{$lanmus[8]['id']}.html">更多</a></span>
+            </div>
+            <div class="m2_box3">
+                <a href="/page-{$z9[0]['id']}.html"><img src="{$z9[0]['img']}" alt="{$z9[0]['tagname']}" /></a>
+                <h4><a href="/page-{$z9[0]['id']}.html">{$z9[0]['tagname']}</a></h4>
+                <p>篇一、{$z9[0]['tagname']}<?php echo str_replace('<p>','',mb_substr($z9[0]['neirong'], 0,15,'utf-8')); ?>...</p>
+
+            </div>
+            <ul class="m2_box4">
+                <for start="1" end="7">
+                    <li>·<a href="/page-{$z9[$i]['id']}.html">{$z9[$i]['tagname']|mb_substr= 0,15,'utf-8'}</a></li>
+                </for>
+
+            </ul>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+
+<include file="footer" />

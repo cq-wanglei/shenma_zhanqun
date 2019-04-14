@@ -1,0 +1,547 @@
+[ 2019-04-07T20:02:13+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003797s ]
+SQL: SHOW COLUMNS FROM `lanmu` [ RunTime:0.0276s ]
+SQL: SELECT * FROM `lanmu`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0261s ]
+SQL: SELECT *,article.id FROM `article` INNER JOIN ci on article.ciid = ci.id  ORDER BY article.id LIMIT 24   [ RunTime:0.0167s ]
+SQL: SELECT *,article.id FROM `article` INNER JOIN ci on article.ciid = ci.id  WHERE ( topid = 1 ) ORDER BY article.id LIMIT 7   [ RunTime:0.0023s ]
+SQL: SELECT *,article.id FROM `article` INNER JOIN ci on article.ciid = ci.id  WHERE ( topid = 2 ) ORDER BY article.id LIMIT 7   [ RunTime:0.0029s ]
+SQL: SELECT *,article.id FROM `article` INNER JOIN ci on article.ciid = ci.id  WHERE ( topid = 3 ) ORDER BY article.id LIMIT 7   [ RunTime:0.0013s ]
+SQL: SELECT *,article.id FROM `article` INNER JOIN ci on article.ciid = ci.id  WHERE ( topid = 4 ) ORDER BY article.id LIMIT 7   [ RunTime:0.0012s ]
+SQL: SELECT *,article.id FROM `article` INNER JOIN ci on article.ciid = ci.id  WHERE ( topid = 5 ) ORDER BY article.id LIMIT 7   [ RunTime:0.0018s ]
+SQL: SELECT *,article.id FROM `article` INNER JOIN ci on article.ciid = ci.id  WHERE ( topid = 6 ) ORDER BY article.id LIMIT 7   [ RunTime:0.0015s ]
+SQL: SELECT *,article.id FROM `article` INNER JOIN ci on article.ciid = ci.id  WHERE ( topid = 7 ) ORDER BY article.id LIMIT 7   [ RunTime:0.0013s ]
+SQL: SELECT *,article.id FROM `article` INNER JOIN ci on article.ciid = ci.id  WHERE ( topid = 8 ) ORDER BY article.id LIMIT 7   [ RunTime:0.0011s ]
+SQL: SELECT *,article.id FROM `article` INNER JOIN ci on article.ciid = ci.id  WHERE ( topid = 9 ) ORDER BY article.id LIMIT 7   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000788s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000897s ]
+NOTIC: [8] Undefined offset: 24 D:\phpStudy\PHPTutorial\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002474s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002530s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004989s ]
+
+[ 2019-04-07T20:02:13+08:00 ] 127.0.0.1 /upload/img/ARQtHMoC1OKP.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001988s ]
+
+[ 2019-04-07T20:02:13+08:00 ] 127.0.0.1 /upload/img/5Ll7IFsYkc.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002584s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002710s ]
+
+[ 2019-04-07T20:02:13+08:00 ] 127.0.0.1 /upload/img/Zn1oAQCEVZR.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000203s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004255s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004513s ]
+
+[ 2019-04-07T20:02:13+08:00 ] 127.0.0.1 /upload/img/tMTEfTys2KXN1h.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001956s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002564s ]
+
+[ 2019-04-07T20:02:13+08:00 ] 127.0.0.1 /upload/img/xP0ltkx2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003215s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002915s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003053s ]
+
+[ 2019-04-07T20:02:13+08:00 ] 127.0.0.1 /upload/img/3s61CKVrbNwoDWY.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002572s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002739s ]
+
+[ 2019-04-07T20:02:13+08:00 ] 127.0.0.1 /upload/img/Er6r9Q0SqH3oyRYP.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004260s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004516s ]
+
+[ 2019-04-07T20:02:13+08:00 ] 127.0.0.1 /upload/img/zXo7wq5zUVUOUaK.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002683s ]
+
+[ 2019-04-07T20:02:13+08:00 ] 127.0.0.1 /upload/img/wTDkpV3ltGt.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001848s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003110s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003294s ]
+
+[ 2019-04-07T20:02:13+08:00 ] 127.0.0.1 /upload/img/qAKM8Ta7W9D4Cm.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002637s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002153s ]
+
+[ 2019-04-07T20:02:13+08:00 ] 127.0.0.1 /upload/img/tXTzwbPQGM.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005740s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002308s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002464s ]
+
+[ 2019-04-07T20:02:24+08:00 ] 127.0.0.1 /page-66978.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001673s ]
+SQL: SHOW COLUMNS FROM `lanmu` [ RunTime:0.0660s ]
+SQL: SELECT * FROM `lanmu`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0197s ]
+SQL: SELECT *,lanmu.id as lid FROM `article` INNER JOIN ci on ci.id = article.ciid INNER JOIN lanmu on lanmu.id = article.topid  WHERE ( article.id=66978 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `juzi` [ RunTime:0.0279s ]
+SQL: SELECT min(id) as min FROM `juzi` LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT max(id) as max FROM `juzi` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 25052 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 36813 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 38492 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 25625 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 45384 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 25956 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 7885 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 17922 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 2750 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 48345 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 43450 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 52872 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 11750 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 6486 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 27167 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 19298 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 50148 ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 49187 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 32586 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 52324 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 13607 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 24219 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 51153 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 40772 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 44094 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 25655 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 46951 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 10298 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 37273 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 10736 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 11426 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 13926 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 25640 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 18800 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 18127 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 22579 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 14329 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 7088 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 3769 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 34545 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 35836 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 14938 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 41900 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 20748 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 40560 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 54325 ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 14499 ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 34211 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 6264 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 386 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 49850 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 45857 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 47549 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 29297 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 29933 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 53974 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 32709 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 16195 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 28296 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 29487 ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 21611 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 27787 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 36387 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 25418 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 46754 ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 48679 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 18287 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 12690 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 3799 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 36112 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 20178 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 44327 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 34714 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 29424 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 6141 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 36516 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 35161 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 40588 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 22356 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 42282 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 37640 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 54212 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 32906 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 32547 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 47281 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 27533 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 29238 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 5601 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 41849 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 54626 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 30167 ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 41834 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 26476 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `content` FROM `juzi` WHERE ( id = 37996 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT min(id) as min FROM `article` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT max(id) as max FROM `article` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `article` WHERE ( id = 69450 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `article` WHERE ( id = 69718 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `article` WHERE ( id = 70046 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `id` FROM `article` WHERE ( id = 68522 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `id` FROM `article` WHERE ( id = 70531 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `id` FROM `article` WHERE ( id = 71602 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT min(id) as min FROM `article` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT max(id) as max FROM `article` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `article` WHERE ( id = 68231 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `article` WHERE ( id = 67296 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `id` FROM `article` WHERE ( id = 67188 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `article` WHERE ( id = 71289 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `id` FROM `article` WHERE ( id = 71915 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `id` FROM `article` WHERE ( id = 70357 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `article` SET `creattime`='1554638544',`neirong`='<p>”小家伙道</p>
+<p>话音未落，窗子突然被撞得粉碎，几个身穿防弹衣的特种警察如神兵天降，查尔的手下们还没明白是怎么回事，便纷纷倒在血泊里</p>
+<p>老刘捐完了钱回家，路上看见很多人在排队，好家伙，队伍排得像长龙，想当年国家困难时期排队买花生油也没见有这么多人</p>
+<p>胡先生是个小公务员，老婆是个教师，收入中等，除了要还房贷，乡下两头的老家还要接济，照他们的经济水平，至少五年内应该还买不起车</p>
+<p>哈哈，安德鲁又惊又喜，一把搂过玛吉，喃喃地说：“我就是这个意思呀!” </p>
+<p>“等等！”张大江说，“让我击鼓为你送行！”</p>
+<p></p>
+<p>很快牛大林开着乳白色的宝马，把潘曙光带到市郊一间破旧的小平房门口</p>
+<p>这天，亚瑟和布莱克约在一起喝酒，见面地点定在十字花俱乐部</p>
+<p>这样一想，阿拉力就买了份报纸，哪晓得刚读完一篇社论，阿拉力突然五脏六腑像火在烧，像刀在绞，蹲在地上直哼哼…… </p>
+<p>眼见采访进行不下去了，记者只好提议：干脆来个情景再现，让当初落水的孩子再假装落一次水，让吴贵平再去“救”一次</p>
+<p>老马拧着眉头想了半天，忽然一拍脑门说：“我明白了，他是用化学品把字消了</p>
+<p>差事干完后，科利帮他把小帆船停入船坞，警告道：“不要对那袋东西打任何主意</p>
+<p>“咱们和他非亲非故的，请他喝什么酒？”“我今年想跟他一起外出</p>
+<p>到了那条街，二宝的眼睛一下就直了</p>
+<p></p>
+<p></p>
+<p>不一会，女孩走到一幢写字楼门口，一个青年人奔过来说：“你终于来了，我正想打电话呢</p>
+<p></p>
+<p>在自己家里，相楠虽然很少干家务活，可她见过保姆炸东西</p>
+<p>谭豪的公司有间一百多平方米的仓库，业务是在互联网上销售农副产品</p>
+<p></p>
+<p>  </p>
+<p>听到这话，托比的心一惊</p>
+<p>三叔连连摇头：“这你就不明白了，一中是省实验高中，里面的学生不是学习成绩好，就是家里有权有钱，十年二十年后都是干大事的人</p>
+<p>又过了一个星期，胡先生的丈母娘还是没能回来</p>
+<p>刘老抠一到，儿子家的生活水平顿时倒退七十年</p>
+<p>在吴小平回家的那一刻，王霞爆发了</p>
+<p>宋阳摇着头说：“怎么会这样，明知道你会骗人，还是被你给唬住了，你可真会演戏</p>
+<p>杨校长向秘书做了保证，下次一定让马县长见到真人</p>
+<p></p>
+<p>因为旅游攻略上有不要对陌生人什么都说的提示，所以我有所保留</p>
+<p></p>
+<p>奇怪的是，这次盖完那栋房子，父亲竟然破天荒地没有将它推翻</p>
+<p></p>
+<p></p>
+<p>当男孩匆匆走到面馆门口时，不由得停下了脚步，他听到了面馆里传来一阵“咔嚓咔嚓”的声音，那是大伙在吃梨子</p>
+<p>报案的第五天，邓志刚接到派出所打来的电话，他父亲找到了，在两百公里外的一个城市，通过协查找到了他走失的父亲</p>
+<p>老头强撑着录完歌就离开了，张涛则争分夺秒地联系记者和电视台，召开新歌发布会</p>
+<p></p>
+<p>他仍然喜滋滋地提着行李跟在他老婆的后边，边走边想，到了村头就可以向乡亲们炫耀一番了</p>
+<p>马大嘴和刘新林同岁，两个人关系处得还不错</p>
+<p>“赚了？不会吧？”老婆一脸疑惑</p>
+<p>见有姑娘瞟他，心里窃喜，马上正襟危坐，摆出最文雅的姿式，小口小口的吃</p>
+<p> </p>
+<p>街边正是一家茶馆，年轻人对刘亦守说：“先生，您能不能赏脸进去小坐片刻，让我给您说说我为什么非要买您手里这块令牌的理由，好吗？”刘亦守看他的神情，不像开玩笑的样子，心想：也罢，就是不卖给他，听听关于这块令牌的来由，总也没有什么不好啊！于是就跟着年轻人进了茶馆</p>
+<p>本文改编自英国作家切斯特顿的短篇小说《隐身人》</p>
+<p>小海脸上立刻火烧一样，埋着头没回答</p>
+<p>他在那一刻想出了这个高明的“盗画”计划</p>
+<p>中年妇女解释说，这些都是刚才的女乘务员送来的，张大娘心中纳闷：现在的列车服务都这么贴心了吗？于是，等女乘务员再来的时候，张大娘就没再离开</p>
+<p>哪晓得，这天朋友带回的寻人启事上，大保老婆的悬赏额从一万一下降到了七千</p>
+<p>很快，车就到了南郊收费站</p>
+<p>”(故事会在线阅读)</p>
+<p>”</p>
+<p></p>
+<p>没想到拉一趟货，要这样挖空心思考验别人，难道这一趟拉的都是金银珠宝？路明看见他眼中露出疑虑，就说：“我这车货虽然算不上有多贵重，但一来我不能跟车过去，二来也不想它出现意外，所以只能挑选放心的人</p>
+<p>孩子们瞪大了眼睛，他们可能永远也不会明白，威尔顿的舌头是用什么做成的，竟然把枪声和炮声表演得如此惟妙惟肖……</p>
+<p></p>
+<p></p>
+<p>不知为什么，他这次好像一点也不担心家里有啥事了；更奇怪的是，一到余寡妇家，他的咳嗽病也不治而愈了</p>
+<p></p>
+<p>”</p>
+<p></p>
+<p>虽然，他只是个半夜娃娃，但方梦龙疼爱万分</p>
+<p>山雨欲来风满楼，两窝孩子在母亲的灵堂内就吵了起来：老大和老二主张母亲必须和李军葬在一起，老四和老五坚决反对，他们说，母亲嫁给耿家后，就和李军没了关系，母亲不和耿峰埋在一起，天理难容</p>
+<p>周成说：“这方法是我在一本西域古书里看到的，现在只有我们三人知道，只要不泄露出去，王恺就是绞尽脑汁也想不到，他还怎么跟您斗富？” </p>
+<p>”当下还拍板决定，老娘到妹妹家住，他们五兄弟每月每人补贴五十块</p>
+<p>不过，你们得给我两天的时间，我得重新改装一下我的车，然后我就拉着你们去旅游</p>
+<p>华阳镇上有个名叫陈道一的郎中，善用怪方治疗疑难杂症，小有名气</p>
+<p>侯宝呵呵一乐，说道：“难道我这四百棵树苗是白栽的吗？”</p>
+<p>怪事发生了，大黑猫见了那怪物，竟浑身发抖，前腿一软就跪了下来</p>
+<p>” </p>
+<p>阿P垂头丧气道：“我打欠条行吧？钱二作保人</p>
+<p>这天，村里来了两个人，他们拉了一卡车布匹，说是要赊给村民们，那两个人信誓旦旦地说，谁家需要多少就赊多少，只要记上村民们的名字就可以啦，五年后来村里要钱，按十块钱一米收钱</p>
+<p>当晚，马主任打电话给张伟明，问扶贫手册填好没有</p>
+<p>”</p>
+<p>我想，他的计划可行，他很快就会还上我们的钱……”</p>
+<p>豆腐黄气鼓鼓地闯了进来，开口便骂：“我吓你一小跳，你吓我一大跳，你现在有吃有喝，我的饭碗被你搞砸了，这叫扯平了？” </p>
+<p>埃迪惊叫起来：“天哪，难道我昏迷了9个月？”</p>
+<p>果然，一杯酒下肚后，无论李哲带来的那三位公关高手使出什么招数，黄海洋总是摆手摇头，让下属把酒给喝了</p>
+<p>让徐涣想对了，百姓们听说徐豹患了怪病，个个解气，都想让他生不如死，哪个愿意救他？</p>
+<p>  经过好一番颠簸，林雨田总算到了大山深处的老鹰沟，很顺利就找到了黄老汉</p>
+<p></p>
+<p>“谢谢您的指教</p>
+<p>亨利和明妮还是坐在了原来的位置上</p>
+<p>于是卓姗姗开始赶场相亲</p>
+<p>“你小子这是吃了砒霜想巴豆</p>
+<p>我只是为了有朝一日能报答你，才把你打包回来送我的酒菜，记录起来，哪想到反倒给你添了乱子</p>
+<p>到了下午，胡老汉急得团团转</p>
+<p>第二天，这幅海报就铺天盖地般见诸各大平面媒体，内容其实很简单：一只啤酒瓶的上半身，瓶内啤酒汹涌，在瓶颈处紧握着一只手，用拇指紧紧地压住瓶盖，尽管这样，啤酒还是如汩汩清泉般溢了出来</p>
+<p>一大早，王老师和六嫂就来到村头等客车</p>
+<p>乐思慎的额头开始冒出大滴的汗珠</p>
+<p>众人问：“下联是何意？”</p>
+<p>车老板笑眯眯地说：“上回那个价不行了，这回得多要点</p>
+',`xiangguan1`='69450,69718,70046,68522,70531,71602,',`xiangguan2`='68231,67296,67188,71289,71915,70357,' WHERE ( id=66978 ) [ RunTime:0.0033s ]
+SQL: SELECT *,lanmu.id as lid FROM `article` INNER JOIN ci on ci.id = article.ciid INNER JOIN lanmu on lanmu.id = article.topid  WHERE ( article.id=66978 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT article.id,ci.tagname,article.img FROM `article` INNER JOIN ci on article.ciid = ci.id  WHERE ( article.id = 69450 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT article.id,ci.tagname,article.img FROM `article` INNER JOIN ci on article.ciid = ci.id  WHERE ( article.id = 69718 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT article.id,ci.tagname,article.img FROM `article` INNER JOIN ci on article.ciid = ci.id  WHERE ( article.id = 70046 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT article.id,ci.tagname,article.img FROM `article` INNER JOIN ci on article.ciid = ci.id  WHERE ( article.id = 68522 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT article.id,ci.tagname,article.img FROM `article` INNER JOIN ci on article.ciid = ci.id  WHERE ( article.id = 70531 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT article.id,ci.tagname,article.img FROM `article` INNER JOIN ci on article.ciid = ci.id  WHERE ( article.id = 71602 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT article.id,ci.tagname FROM `article` INNER JOIN ci on article.ciid = ci.id  WHERE ( article.id = 68231 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT article.id,ci.tagname FROM `article` INNER JOIN ci on article.ciid = ci.id  WHERE ( article.id = 67296 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT article.id,ci.tagname FROM `article` INNER JOIN ci on article.ciid = ci.id  WHERE ( article.id = 67188 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT article.id,ci.tagname FROM `article` INNER JOIN ci on article.ciid = ci.id  WHERE ( article.id = 71289 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT article.id,ci.tagname FROM `article` INNER JOIN ci on article.ciid = ci.id  WHERE ( article.id = 71915 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT article.id,ci.tagname FROM `article` INNER JOIN ci on article.ciid = ci.id  WHERE ( article.id = 70357 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT article.id,ci.tagname FROM `article` INNER JOIN ci on ci.id = article.ciid  ORDER BY article.id desc LIMIT 10   [ RunTime:0.0006s ]
+SQL: SELECT article.id,ci.tagname,article.img FROM `article` INNER JOIN ci on ci.id = article.ciid  ORDER BY article.id LIMIT 6   [ RunTime:0.0005s ]
+SQL: SELECT article.id,ci.tagname FROM `article` INNER JOIN ci on ci.id = article.ciid  ORDER BY ci.id desc LIMIT 10   [ RunTime:0.0256s ]
+SQL: SELECT article.id,ci.tagname FROM `article` INNER JOIN ci on ci.id = article.ciid  WHERE ( article.id>66978 ) LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038073s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003398s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003491s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002529s ]
+
+[ 2019-04-07T20:02:24+08:00 ] 127.0.0.1 /upload/img/AeyN2SEp.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001748s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002939s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002645s ]
+
+[ 2019-04-07T20:02:24+08:00 ] 127.0.0.1 /upload/img/DYEpmALinl.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002507s ]
+
+[ 2019-04-07T20:02:24+08:00 ] 127.0.0.1 /upload/img/L8tRUyt1E0jD.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001920s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001957s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002086s ]
+
+[ 2019-04-07T20:02:24+08:00 ] 127.0.0.1 /upload/img/piQzYjiZY8n9zMqY.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002556s ]
+
+[ 2019-04-07T20:02:24+08:00 ] 127.0.0.1 /upload/img/SE0AGW0GCld1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002496s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002219s ]
+
+[ 2019-04-07T20:02:24+08:00 ] 127.0.0.1 /upload/img/vUQ7X7SU.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001789s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001907s ]
+
+[ 2019-04-07T20:02:24+08:00 ] 127.0.0.1 /upload/img/dctzjGqn0iU8Nqm.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002205s ]
+
+[ 2019-04-07T20:02:24+08:00 ] 127.0.0.1 /upload/img/Er6r9Q0SqH3oyRYP.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001770s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002251s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002377s ]
+
+[ 2019-04-07T20:02:24+08:00 ] 127.0.0.1 /upload/img/ARQtHMoC1OKP.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001743s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002440s ]
+
+[ 2019-04-07T20:02:25+08:00 ] 127.0.0.1 /upload/img/5Ll7IFsYkc.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001677s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002177s ]
+
+[ 2019-04-07T20:02:25+08:00 ] 127.0.0.1 /upload/img/Zn1oAQCEVZR.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002540s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001935s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002051s ]
+
+[ 2019-04-07T20:02:25+08:00 ] 127.0.0.1 /upload/img/qAKM8Ta7W9D4Cm.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001797s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002712s ]
+
+[ 2019-04-07T20:02:25+08:00 ] 127.0.0.1 /upload/img/xP0ltkx2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001679s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002535s ]
+

@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+ RewriteEngine on
+ RewriteCond %{REQUEST_FILENAME} !-d
+ RewriteCond %{REQUEST_FILENAME} !-f
+ RewriteRule ^$ index.php [QSA,PT,L]
+  RewriteRule ^ci$ index.php/Home/Index/ci [QSA,PT,L]
+ RewriteRule ^list-(.*)\.html$ index.php/Home/Index/lists?id=$1 [QSA,PT,L]
+ RewriteRule ^page-(.*)\.html$ index.php/Home/Index/page?id=$1 [QSA,PT,L]
+ RewriteRule ^upload(.*?)$ index.php/Home/Index/randimg [QSA,PT,L]
+ RewriteRule ^sitemap\.xml$ index.php/Home/Index/sitemap [QSA,PT,L]
+ RewriteRule ^robots\.txt$ index.php/Home/Index/robots [QSA,PT,L]
+</IfModule>

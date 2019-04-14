@@ -1,0 +1,439 @@
+[ 2019-04-03T22:08:43+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001790s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016659s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000838s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001103s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001147s ]
+
+[ 2019-04-03T22:18:44+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001385s ]
+
+[ 2019-04-03T22:19:05+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001187s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+NOTIC: [8] Undefined variable: title D:\phpStudy\PHPTutorial\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+NOTIC: [8] Undefined variable: description D:\phpStudy\PHPTutorial\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 6 行.
+NOTIC: [8] Undefined variable: keywords D:\phpStudy\PHPTutorial\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Undefined variable: webdomian D:\phpStudy\PHPTutorial\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 13 行.
+NOTIC: [8] Undefined variable: webdomian D:\phpStudy\PHPTutorial\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 13 行.
+NOTIC: [8] Undefined variable: title D:\phpStudy\PHPTutorial\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 13 行.
+NOTIC: [8] Undefined variable: webdomian D:\phpStudy\PHPTutorial\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 14 行.
+NOTIC: [8] Undefined variable: webdomian D:\phpStudy\PHPTutorial\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Undefined variable: title D:\phpStudy\PHPTutorial\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Undefined variable: lanmu D:\phpStudy\PHPTutorial\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034054s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034104s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001653s ]
+
+[ 2019-04-03T22:20:06+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001148s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+NOTIC: [8] Undefined variable: title D:\phpStudy\PHPTutorial\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+NOTIC: [8] Undefined variable: description D:\phpStudy\PHPTutorial\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 6 行.
+NOTIC: [8] Undefined variable: keywords D:\phpStudy\PHPTutorial\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 7 行.
+NOTIC: [8] Undefined variable: webdomian D:\phpStudy\PHPTutorial\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 13 行.
+NOTIC: [8] Undefined variable: webdomian D:\phpStudy\PHPTutorial\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 13 行.
+NOTIC: [8] Undefined variable: title D:\phpStudy\PHPTutorial\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 13 行.
+NOTIC: [8] Undefined variable: webdomian D:\phpStudy\PHPTutorial\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 14 行.
+NOTIC: [8] Undefined variable: webdomian D:\phpStudy\PHPTutorial\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Undefined variable: title D:\phpStudy\PHPTutorial\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Undefined variable: lanmu D:\phpStudy\PHPTutorial\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034560s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001337s ]
+
+[ 2019-04-03T22:20:36+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+NOTIC: [8] Undefined variable: lanmu D:\phpStudy\PHPTutorial\WWW\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028418s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028472s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000793s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000865s ]
+
+[ 2019-04-03T22:23:16+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001146s ]
+SQL: SHOW COLUMNS FROM `lanmu` [ RunTime:0.0196s ]
+SQL: SELECT * FROM `lanmu`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037816s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037908s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001447s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002200s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002325s ]
+
+[ 2019-04-03T22:25:49+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001207s ]
+SQL: SHOW COLUMNS FROM `lanmu` [ RunTime:0.0292s ]
+SQL: SELECT * FROM `lanmu`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000205s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000286s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067059s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001374s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002227s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002343s ]
+
+[ 2019-04-03T22:26:39+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001337s ]
+SQL: SHOW COLUMNS FROM `lanmu` [ RunTime:0.0264s ]
+SQL: SELECT * FROM `lanmu`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058486s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001669s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001753s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002457s ]
+
+[ 2019-04-03T22:35:38+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001279s ]
+SQL: SHOW COLUMNS FROM `lanmu` [ RunTime:0.0251s ]
+SQL: SELECT * FROM `lanmu`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0179s ]
+SQL: SELECT * FROM `article` INNER JOIN ci on article.ciid = ci.id  ORDER BY article.id LIMIT 24   [ RunTime:0.0016s ]
+
+[ 2019-04-03T22:35:43+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001086s ]
+SQL: SHOW COLUMNS FROM `lanmu` [ RunTime:0.0208s ]
+SQL: SELECT * FROM `lanmu`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `article` INNER JOIN ci on article.ciid = ci.id  ORDER BY article.id LIMIT 24   [ RunTime:0.0007s ]
+
+[ 2019-04-03T22:35:47+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+SQL: SHOW COLUMNS FROM `lanmu` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `lanmu`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `article` INNER JOIN ci on article.ciid = ci.id  ORDER BY article.id LIMIT 24   [ RunTime:0.0007s ]
+
+[ 2019-04-03T22:37:40+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001265s ]
+SQL: SHOW COLUMNS FROM `lanmu` [ RunTime:0.0223s ]
+SQL: SELECT * FROM `lanmu`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `article` INNER JOIN ci on article.ciid = ci.id  ORDER BY article.id LIMIT 24   [ RunTime:0.0008s ]
+
+[ 2019-04-03T22:49:58+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001174s ]
+SQL: SHOW COLUMNS FROM `lanmu` [ RunTime:0.0302s ]
+SQL: SELECT * FROM `lanmu`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0218s ]
+SQL: SELECT * FROM `article` INNER JOIN ci on article.ciid = ci.id  ORDER BY article.id LIMIT 24   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000257s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000351s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049199s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049294s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001410s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001492s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001865s ]
+
+[ 2019-04-03T22:51:43+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001047s ]
+SQL: SHOW COLUMNS FROM `lanmu` [ RunTime:0.0325s ]
+SQL: SELECT * FROM `lanmu`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0219s ]
+SQL: SELECT * FROM `article` INNER JOIN ci on article.ciid = ci.id  ORDER BY article.id LIMIT 24   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000210s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081746s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001171s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001228s ]
+
+[ 2019-04-03T22:53:09+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+SQL: SHOW COLUMNS FROM `lanmu` [ RunTime:0.0326s ]
+SQL: SELECT * FROM `lanmu`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0209s ]
+SQL: SELECT * FROM `article` INNER JOIN ci on article.ciid = ci.id  ORDER BY article.id LIMIT 24   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000297s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074661s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001211s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001274s ]
+
+[ 2019-04-03T22:53:40+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001207s ]
+SQL: SHOW COLUMNS FROM `lanmu` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `lanmu`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0176s ]
+SQL: SELECT * FROM `article` INNER JOIN ci on article.ciid = ci.id  ORDER BY article.id LIMIT 24   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045637s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001320s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002136s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002269s ]
+
+[ 2019-04-03T22:57:52+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001207s ]
+SQL: SHOW COLUMNS FROM `lanmu` [ RunTime:0.0319s ]
+SQL: SELECT * FROM `lanmu`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `article` INNER JOIN ci on article.ciid = ci.id  ORDER BY article.id LIMIT 24   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054155s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054271s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001481s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001574s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002604s ]
+
+[ 2019-04-03T22:58:07+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+SQL: SHOW COLUMNS FROM `lanmu` [ RunTime:0.0278s ]
+SQL: SELECT * FROM `lanmu`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0185s ]
+SQL: SELECT * FROM `article` INNER JOIN ci on article.ciid = ci.id  ORDER BY article.id LIMIT 24   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061754s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061844s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000989s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001343s ]
+
+[ 2019-04-03T23:01:55+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001452s ]
+SQL: SHOW COLUMNS FROM `lanmu` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `lanmu`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0164s ]
+SQL: SELECT * FROM `article` INNER JOIN ci on article.ciid = ci.id  ORDER BY article.id LIMIT 24   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062284s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062354s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000853s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001250s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001315s ]
+
+[ 2019-04-03T23:02:15+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+SQL: SHOW COLUMNS FROM `lanmu` [ RunTime:0.0195s ]
+SQL: SELECT * FROM `lanmu`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0143s ]
+SQL: SELECT * FROM `article` INNER JOIN ci on article.ciid = ci.id  ORDER BY article.id LIMIT 24   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072965s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000855s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000922s ]
+
+[ 2019-04-03T23:05:35+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001467s ]
+SQL: SHOW COLUMNS FROM `lanmu` [ RunTime:0.0285s ]
+SQL: SELECT * FROM `lanmu`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0153s ]
+SQL: SELECT * FROM `article` INNER JOIN ci on article.ciid = ci.id  ORDER BY article.id LIMIT 24   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001550s ]
+
